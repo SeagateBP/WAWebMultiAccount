@@ -1,0 +1,111 @@
+WhatsApp Web Multi Account Freeware License
+
+Copyright (c) 2026 SeagateBP. All rights reserved.
+
+This license applies to the WhatsApp Web Multi Account application (WAWebMultiAcc, "the Software"),
+including its executable files, updates, and documentation, as published at:
+https://github.com/SeagateBP/WAWebMultiAccount/releases
+
+By downloading, installing, or using the Software, you agree to these terms. If you do not
+agree, do not use the Software.
+
+
+1. LICENSE GRANT
+
+You may download, install, and use the Software free of charge, for personal or business
+purposes, on any number of devices.
+
+This license is non-exclusive and non-transferable.
+
+
+2. RESTRICTIONS
+
+You may NOT:
+
+  a. modify, adapt, translate, or create derivative works of the Software;
+  b. reverse engineer, decompile, or disassemble the Software, except to the extent that
+     applicable law expressly permits it despite this restriction;
+  c. sell, rent, lease, sublicense, or otherwise charge for the Software;
+  d. redistribute the Software or host copies of it for download. The only official source
+     is the Releases page above. You may share a link to that page;
+  e. remove or alter any copyright, license, or trademark notice in the Software;
+  f. bundle the Software with other software, or present it as your own.
+
+These restrictions protect users from altered copies that may contain malware. Only files
+obtained from the official Releases page, or installed by the Software's own signed updater,
+are genuine.
+
+
+3. OWNERSHIP
+
+The Software is licensed, not sold. SeagateBP retains all rights, title, and interest in the
+Software, including all intellectual property rights. All rights not expressly granted in
+this license are reserved.
+
+
+4. THIRD-PARTY COMPONENTS
+
+The Software includes third-party components, such as Electron and Chromium, that are
+licensed under their own terms. Those terms are included with the Software (for example,
+LICENSE.electron.txt and LICENSES.chromium.html). Nothing in this license limits your rights
+under those third-party licenses.
+
+
+5. TRADEMARKS AND AFFILIATION
+
+The Software is an independent, unofficial application. It is not affiliated with, endorsed
+by, or sponsored by WhatsApp LLC or Meta Platforms, Inc. "WhatsApp" is a trademark of
+WhatsApp LLC.
+
+
+6. YOUR RESPONSIBILITIES
+
+The Software displays WhatsApp Web, the web version of WhatsApp. You are responsible for
+using WhatsApp in line with WhatsApp's own terms of service. The developer is not
+responsible for any restriction, suspension, or ban that WhatsApp may apply to your
+accounts.
+
+The Software stores login sessions in its data folder. Anyone with access to that folder may
+be able to access your accounts. You are responsible for protecting that folder and the
+device it is on.
+
+
+7. PRIVACY AND UPDATES
+
+The Software connects only to WhatsApp Web and, to check for updates, to the official
+repository named above. It does not collect or send your account data, messages, or usage
+information to the developer or to any other party.
+
+The Software checks for updates automatically. You can turn this off in the app under
+Settings, then Updates. Updates are installed only with your consent.
+
+
+8. NO WARRANTY
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
+INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR
+PURPOSE, AND NON-INFRINGEMENT.
+
+Privacy features such as blur and the PIN lock reduce casual viewing of your screen. They
+are not a guarantee of confidentiality and do not encrypt your data. They may stop working
+fully if WhatsApp Web changes.
+
+
+9. LIMITATION OF LIABILITY
+
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, IN NO EVENT SHALL THE DEVELOPER BE LIABLE FOR ANY
+CLAIM, DAMAGES, OR OTHER LIABILITY, INCLUDING LOSS OF DATA, LOSS OF ACCOUNTS, OR LOSS OF
+BUSINESS, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF, OR IN
+CONNECTION WITH THE SOFTWARE OR ITS USE.
+
+
+10. TERMINATION
+
+This license ends automatically if you break any of its terms. When it ends, you must stop
+using the Software and delete all copies of it.
+
+
+11. CHANGES
+
+Future versions of the Software may come with different license terms. Each version is
+governed by the license included with it.
