@@ -2,9 +2,10 @@
 
 Unofficial portable Windows app for using multiple WhatsApp Web accounts in one window. All accounts stay active at once, with privacy blur & PIN lock.
 
-<p align="center">
-  <img src="assets/WABlur.png" alt="Accounts with privacy blur on" height="300">
-  <img src="assets/WALock.png" alt="App locked with a PIN" height="300">
+<p align="center">  
+  <img src="assets/WAPrivacySetup.png" alt="Accounts with privacy blur on" height="200">
+  <img src="assets/WABlur.png" alt="Accounts with privacy blur on" height="200">
+  <img src="assets/WALock.png" alt="App locked with a PIN" height="200">
 </p>
 
 ## Download
