@@ -21,9 +21,11 @@ Windows SmartScreen may show a warning the first time. Click **More info → Run
 ## Features
 
 - Every account stays connected and receives notifications, even while the window is hidden in the tray.
-- Unread badges per account, with the total shown in the taskbar.
+- Unread badges per account, with the total shown in the taskbar and on the tray icon.
+- Account colors you can change, and a zoom level per account (Ctrl+Plus / Ctrl+Minus, or Ctrl+mouse wheel).
+- Show or hide the app from any program with a shortcut (Ctrl+Alt+W by default).
 - Privacy: choose exactly what to blur in the chat list, the chat header, the messages (text, photos, videos, documents, group sender names and photos), the text being typed, and the contact info panel (`Ctrl+Shift+B`). Notification content can be hidden.
-- PIN lock, with auto-lock when idle or when Windows locks.
+- PIN lock, with auto-lock when idle or when Windows locks. Forgot the PIN? Reset it from the lock screen: every account is signed out and its data on this device is deleted first.
 - Memory saver that reloads background accounts without signing out.
 - Automatic updates: the app tells you when a new version is available and installs it only with your consent. The previous version is kept and can be restored.
 
