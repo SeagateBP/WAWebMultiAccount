@@ -1,64 +1,20 @@
-# WhatsApp Web Multi Account
+# Discontinued: now NaFaDa Chat
 
-Unofficial portable Windows app for using multiple WhatsApp Web accounts in one window. All accounts stay active at once, with privacy blur & PIN lock.
+**WhatsApp Web Multi Account (`WAWebMultiAcc.exe`, versions 1.0.0–1.0.3) is discontinued.** It gets no more updates or privacy (blur) rule fixes.
 
-<p align="center">  
-  <img src="assets/WAPrivacySetup.png" alt="Accounts with privacy blur on" height="250">
-  <img src="assets/WABlur.png" alt="Accounts with privacy blur on" height="250">
-  <img src="assets/WALock.png" alt="App locked with a PIN" height="250">
-</p>
+Its successor is **NaFaDa Chat**: https://github.com/SeagateBP/NaFaDaChat
 
-## Download
+## Switching to NaFaDa Chat and keeping your accounts
 
-Go to **[Releases](../../releases/latest)** and download `WAWebMultiAcc-<version>-x64.zip`. Extract it to a folder of its own (a USB drive works too), then run `WAWebMultiAcc.exe`.
+Your app may say "Version 1.0.4 is available": that message is this notice. The old app cannot install NaFaDa Chat by itself. To switch:
 
-Then scan the QR code with your phone (WhatsApp → Linked devices → Link a device). Use **+** in the sidebar to add more accounts.
+1. In the old app, turn off ⚙ → **Start with Windows** if it is on, then quit it (tray → Quit).
+2. Download `NaFaDaChat-<version>-x64.zip` from the [NaFaDa Chat releases](https://github.com/SeagateBP/NaFaDaChat/releases/latest) and extract it to a new folder.
+3. Copy the `Data` folder from the old app folder into the new folder. If you moved your data elsewhere, also copy `WAWebMultiAcc.config.json`; NaFaDa Chat picks it up.
+4. Run `NaFaDaChat.exe`. Your accounts open signed in, with their names, colors and settings.
+5. Once everything works, delete the old app folder.
 
-Updates install themselves from version 1.0.2 on. Coming from 1.0.0 or 1.0.1 (zip or portable .exe)? Extract the new zip into the old app folder once; the `Data` folder with your accounts is kept.
-
-Windows SmartScreen may show a warning the first time. Click **More info → Run anyway**.
-
-## Features
-
-- Every account stays connected and receives notifications, even while the window is hidden in the tray.
-- Unread badges per account, with the total shown in the taskbar and on the tray icon.
-- Account colors you can change, and a zoom level per account (Ctrl+Plus / Ctrl+Minus, or Ctrl+mouse wheel).
-- Show or hide the app from any program with a shortcut (Ctrl+Alt+W by default).
-- Privacy: choose exactly what to blur in the chat list, the chat header, the messages (text, photos, videos, documents, group sender names and photos), the text being typed, and the contact info panel (`Ctrl+Shift+B`). Notification content can be hidden.
-- PIN lock, with auto-lock when idle or when Windows locks. Forgot the PIN? Reset it from the lock screen: every account is signed out and its data on this device is deleted first.
-- Memory saver that reloads background accounts without signing out.
-- Automatic updates: the app tells you when a new version is available and installs it only with your consent. The previous version is kept and can be restored.
-
-## Verifying your download
-
-- Each release includes `SHA256SUMS.txt`. To check a file, run this in PowerShell:
-  ```
-  Get-FileHash .\WAWebMultiAcc-<version>-x64.zip
-  ```
-  The result must match that file's line in `SHA256SUMS.txt`.
-- Automatic updates install only files digitally signed by the developer. The app rejects anything that was altered.
-- Download only from this repository's Releases page.
-
-## Privacy
-
-The app connects only to WhatsApp Web and, for updates, to the files in this repository (`update/latest.json` and `update/privacy-rules.json`). It does not send account data, messages, or usage information anywhere.
-
-The `Data` folder next to the app holds your login sessions. Anyone who copies it may be able to open your accounts:
-
-- Protect it with BitLocker, or BitLocker To Go on a USB drive.
-- If you think it was copied, open WhatsApp on your phone → **Linked devices** and log out any device you do not recognize.
-
-## What is in this repository
-
-- `update/latest.json`: information about the latest version (signed).
-- `update/privacy-rules.json`: the latest privacy (blur) rules for version 1.0.2 and later (signed and encrypted).
-- `update/blur-rules.json`: the same for versions 1.0.0–1.0.1.
-
-The source code is not published.
-
-## License
-
-Free to use, for personal and business purposes, under the [WhatsApp Web Multi Account Freeware License](LICENSE.txt). The app may not be modified, sold, or redistributed. To share it, share a link to the Releases page.
+The old releases stay here for reference only. Please download NaFaDa Chat instead.
 
 ---
 
